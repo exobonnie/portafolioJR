@@ -5,10 +5,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "build:sin-purga": "vite build --mode sinpurga --outDir dist-sinpurga"
+    "build:sin-purga": "vite build --mode sinpurga --outDir dist-sinpurga",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^8.0.0",
+    "gh-pages": "^6.3.0",
     "less": "^4.9.1",
     "vite": "^8.3.5"
   },
