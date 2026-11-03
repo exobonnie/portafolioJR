@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/portafolio/',
+  base: './',
   build: {
     minify: true,
     cssMinify: true,
