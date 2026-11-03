@@ -1,0 +1,17 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:sin-purga": "vite build --mode sinpurga --outDir dist-sinpurga"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^8.0.0",
+    "less": "^4.9.1",
+    "vite": "^8.3.5"
+  },
+  "private": true,
+  "type": "module"
+}
